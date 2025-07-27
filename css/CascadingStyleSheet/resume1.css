@@ -58,7 +58,6 @@ body{
     color: #555;
     display: flex;
     justify-content: center;
-    background-color:red ;
     align-items: center;
     padding: 20px 30px;
     position: relative;
@@ -103,4 +102,16 @@ body{
 
 .section ul{
     margin-left: 20px;
+}
+
+.left-column {
+  width: 35%;
+  background: #f7f7f7;
+  padding: 30px;
+  text-align: center;
+}
+
+.right-column {
+  width: 60%;
+  padding: 30px;
 }
