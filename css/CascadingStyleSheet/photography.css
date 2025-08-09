@@ -29,7 +29,13 @@ header{
     justify-content: center;
     padding-top: 20px;
     background-color: white;
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
+}
+.section-head span a:hover::after{
+    width: 100%;
+}
+span a::after{
+    color: black;
 }
 .gap-span{
     margin-right: 10px;
