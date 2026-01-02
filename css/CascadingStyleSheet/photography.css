@@ -29,9 +29,10 @@ header{
     justify-content: center;
     padding-top: 20px;
     background-color: white;
-    margin-bottom: 10px;    
+    margin-bottom: 10px; 
+    gap: 30px;   
 }
-.section-head span a:hover::after{
+.second-head span a:hover::after{
     width: 100%;
 }
 span a::after{
@@ -39,7 +40,14 @@ span a::after{
 }
 .gap-span{
     margin-right: 10px;
+    text-decoration: underline;
 } 
+.gap-span a:hover{
+    color: blue;
+    transition: 0.3s ease;
+    transform: scale(1.2);
+    background-color: #de660a;
+}
 .third{
     position: relative;
     overflow: hidden;
